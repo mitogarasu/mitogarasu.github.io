@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../formstyle.css ">
+</head>
+<body>
+    <header>
+        <h1>Форма</h1>
+    </header> 
+    <br/>
+    <main class="cent">
+        <table>
+            <tr>
+            <td>
+    <div>Как вам удобно получить ответ:</div>
+    <label for="c_mail">
+        <input type="radio" name="com_tion" id="c_mail"> по почте 
+    </label><br>
+    <label for="c_tel">
+        <input type="radio" name="com_tion" id="c_tel"> по телефону 
+    </label><br>
+    <label for="c_none">
+        <input type="radio" name="com_tion" id="c_none"> не нужно отвечать
+    </label><br>
+    <br/>
+    <div>
+    <label for="theme">
+        Укажите тему вопроса
+    </label><br>
+    <select class="textbox" name="theme" id="theme">
+        <option value="work">Работа</option>
+        <option value="cooperation">Сотрудничество</option>
+        <option value="personal">Личное</option>
+    </select>
+    </div>
+    <br/>
+
+    <div>
+        <div>И еще один вопрос?</div>
+        <label for="chb1">
+            <input type="checkbox" name="chb1" id="chb1">может так
+        </label><br>
+        <label for="chb2">
+            <input type="checkbox" name="chb2" id="chb2">или не так
+        </label><br>
+        <label for="chb3">
+            <input type="checkbox" name="chb3" id="chb3">иначе
+        </label><br>     
+    </div>
+    <br/>
+    <div>
+        <label for="email">Ваше имя</label>
+        <input class="textbox" type="email" name="email" id="email">
+    </div>
+    <br/>
+    <div>
+        <label for="email">Адрес почты</label>
+        <input class="textbox" type="email" name="email" id="email">
+    </div>
+    <br/>
+    <div>
+        <label for="tel">Номер телефона</label>
+        <input class="textbox" type="tel" name="tel" id="tel">
+    </div>
+    <div>Ваш вопрос:</div>
+    <div>
+        <textarea cols="37"></textarea>
+    </div> 
+    <div>
+        <input style="display: flex;" class="button" type="submit" title="Отправить">
+    </div>
+    </td>
+    </tr>
+    </table>
+    </main>
+    <br/>
+    <div>
+        <footer style="padding-bottom: 20px; ">Веб-технологии, задание 2</footer>
+    </div>
+</body>
+</html>

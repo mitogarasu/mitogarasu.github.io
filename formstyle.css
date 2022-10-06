@@ -1,0 +1,68 @@
+header
+{
+    background-color: coral;
+    margin: 0px;
+}
+body
+{
+    margin: 0;
+}
+h1
+{
+    padding-top: 10px;
+    margin: 0;
+}
+footer
+{
+    background-color: coral;
+    margin: 0;
+}
+.background-color
+{
+    background-color: black;
+    color: white;
+}
+.background-color-2
+{
+    background-color: white;
+    color: black;
+}
+.textbox
+{
+    border-radius: 10px;
+    background-color: rgb(254,243,213);
+    border-color: rgb(255, 127, 35); 
+}
+.flex-row-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.flex-col-div-space-around
+{
+    align-items: center;
+    justify-content: space-around;
+}
+.cent
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+table
+{
+    border-spacing: 20px;
+    border: 1px coral;
+    border-radius: 80px;
+    box-shadow: 1px 1px 5px 3px coral;
+    padding: 20px;
+}
+.button
+{
+    border-radius: 10px;
+    background-color: rgb(254,243,213);
+    border-color: rgb(255, 127, 35);
+    margin-left: 110px;
+}
+
